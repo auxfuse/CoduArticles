@@ -12,6 +12,8 @@ Emojis ✨, such a tiny addition that has now brought some life to this plain te
 
 Want more context? 👀 Peak this [Zendesk Article](https://www.zendesk.com/blog/emojis-for-better-communication/) 👀
 
+
+
 And there is a simple and easy way to do this:
 * On Windows: Hold `ctrl` on your keyboard and then press `.` (this is a full stop / period symbol).
 * On Mac: Hold `ctrl + cmd` and then press `space`.
