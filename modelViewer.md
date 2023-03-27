@@ -11,10 +11,12 @@ Just look at how smooth this operates in my browser (Google Chrome):
 
 <img src="https://i.gyazo.com/092c9ce55a1c105f7410dc03090ed07a.gif" width=35% height=35% />
 
+<!-- ![Model-Viewer example](https://i.gyazo.com/092c9ce55a1c105f7410dc03090ed07a.gif) -->
+
 Source: _Gif recording of the example on https://modelviewer.dev/_
 
 
-It's been over two years, and I'm still telling people about this awesome web component. Used it first in a Hackathon for Breast Cancer to showcase human anatomy. The brief we wanted to accomplish was bridging the gap of breat cancer and technology using current 3D tech available. 3D in the browser was not a new thing, but it was emerging, and we wanted to show that in our project.
+It's been over two years, and I'm still telling people about this awesome web component. Used it first in a Hackathon for Breast Cancer to showcase human anatomy. The brief we wanted to accomplish was bridging the gap of breast cancer and technology using current 3D tech available. 3D in the browser was not a new thing, but it was emerging, and we wanted to show that in our project.
 
 Fun fact, it was the first time meeting [Kera Cudmore](https://github.com/kera-cudmore) as we were on the same team together. Time really does fly! 🤜
 
@@ -100,6 +102,8 @@ Follow these steps 🚶‍♀️🚶‍♂️:
 
 <img src="https://raw.githubusercontent.com/auxfuse/CoduArticles/main/imgs/modelViewerDemo_directory.PNG" alt="Model-Viewer Demo File Directory screenshot" />
 
+<!-- ![Directory of Model-viewer Demo project](https://raw.githubusercontent.com/auxfuse/CoduArticles/main/imgs/modelViewerDemo_directory.PNG) -->
+
 * Almost there, now we need to add the `model-viewer` element to our HTML. Add it just under the paragraph `</p>` close tag. Notice the `src` attribute is where we link our newly acquired gltf file:
 
 ```html
@@ -115,7 +119,7 @@ Follow these steps 🚶‍♀️🚶‍♂️:
 * Preview your project locally!
 
 As you can see, the `<model-viewer>` acts just like a HTML element does. It renders to the DOM as soon as the page loads, and inside the viewer is our GLTF asset of the cute pupper!
-`auto-rotate`, `camera-controls`, and `loading` are custom attributes to the web component, and those allow us to physically interact with the Dog shown.
+`auto-rotate`, `camera-controls`, and `loading` are custom attributes to the web component, and those allow us to physically interact with the Dog shown. And all of them are clearly chronicled in the [documentation of the Model-viewer](https://modelviewer.dev/) website.
 
 * Using your mouse, left-click and hold on the Puppy and then drag your mouse. This will rotate the camera around the asset. Use scroll-wheel to zoom-in-out. And use right click to pan your camera to a new focal point.
 * Our viewer is a little small though. We can use some CSS to resize it easily by enlarging it. Feel free to embed this directly into the HTML, or create a file CSS file and link it to the `index.html` document.
